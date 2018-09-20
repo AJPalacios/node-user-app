@@ -16,4 +16,6 @@ exports.sendMail = (email)=>{
     text: 'Saquen las beers',
     html: '<h1> vamonos de pedos 3 dias </h1>'
   })
+  .then(info=>console.log(info))
+  .catch(err=>console.log(err))
 }
